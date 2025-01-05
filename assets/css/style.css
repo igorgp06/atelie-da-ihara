@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+@import url(responsive.css);
+@import url(variables.css);
+
+/* global */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+section {
+    min-height: 80vh;
+    padding: 50px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* navbar */
+
+.header {
+    width: 100%;
+    height: 90%;
+    z-index: 10;
+    background-color: var(--DarkKhaki);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.logo a {
+    font-size: 2rem;
+    font-weight: bold;
+    padding-left: 1rem;
+    text-decoration: none;
+    color: black; /* TODO: navbar não deve aumentar de tamanho no hover da logo, corrigir isso */
+    transition: all 0.4s ease-in-out;
+}
+
+.logo a:hover {
+    font-size: 2.1rem;
+}
+
+.nav-menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100%;
+    width: 30%;
+    /* background-color: var(--); */
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    user-select: none;
+    transition: rigth 0.4s, opacity 0.4s;
+}
+
+.open {
+    right: 0;
+    opacity: 1;
+}
+
+.slide-in {
+    right: 0;
+    opacity: 1;
+}
+
+.menu-icon {
+    font-size: 2rem;
+    z-index: 999;
+    margin-left: auto;
+    margin-right: 2rem; /* TODO: corrigir a opacidade, menu não aparece */
+    cursor: pointer;
+    opacity: 1;
+}
+
+.close-icon {
+    position: absolute;
+    font-size: 2rem;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+.navbar-list {
+    text-decoration: none;
+    text-align: center;
+    margin: 0;
+    padding: 10%;
+    transition: all 0.4s ease-in-out;
+}
+
+.navbar-list:hover {
+    box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.175);
+}
+
+.navbar-list li {
+    margin: 1rem 0;
+}
+
+.navbar-list a {
+    font-size: 1.5rem;
+    padding: 1rem;
+    font-weight: 650;
+    transition: all 0.4s ease-in-out;
+}
+
+.navbar-list a:hover {
+    text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.175);
+    font-size: 1.6rem;
+}
