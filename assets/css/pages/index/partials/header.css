@@ -1,28 +1,5 @@
 @charset "UTF-8";
 
-@import url(responsive.css);
-@import url(variables.css);
-
-/* global */
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-ul {
-    list-style: none;
-}
-
-section {
-    min-height: 80vh;
-    padding: 50px 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
 /* navbar */
 
 .header {
