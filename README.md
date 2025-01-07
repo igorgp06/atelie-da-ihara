@@ -2,7 +2,7 @@
 
 ## Controle Versional (GIT)
 
-**O projeto está sujeito a sua própria controle versional, seu deploy foi feito na versão 1.0 seguindo os seguintes padrões de sufixos:**  
+**O projeto está sujeito ao seu próprio controle versional, seu deploy foi feito na versão 1.0 e seguindo os seguintes padrões de sufixos:**  
 
 - [ADD]  
   - Adição de algo novo para o projeto, sem remoções consideráveis.  
@@ -41,7 +41,7 @@ Observe agora que cada seção está sujeita a sua própria versão, veja a atri
 
 ### Observações
 
-Cada versão tem sua própria caracteristica, vejamos:
+Cada número da versão tem sua própria caracteristica, vejamos:
 -  1.*
    -  O primeiro número que acompanha o status do projeto faz referência ao seção que está sendo produzida no momento, ou seja, se estiver trabalhando no header, o primeiro número vai ser 1, se estiver trabalhando na seção do hero, o primeiro número vai ser 2 e assim por diante.  
 
@@ -59,7 +59,7 @@ O sufixo "[WORK]" pode conter junto de seu lançamento outra tags junto de si, c
 
 ## Licença
 
-O projeto [Ateliê da Ihara](https://github.com/igorgp06/atelie-da-ihara) está sujeito a liçenda [APACHE LICENSE 2.0](https://www.apache.org/licenses/LICENSE-2.0)
+O projeto [Ateliê da Ihara](https://github.com/igorgp06/atelie-da-ihara) está sujeito a licença [APACHE LICENSE 2.0](https://www.apache.org/licenses/LICENSE-2.0)
 
 ### Contato
 
