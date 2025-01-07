@@ -1,4 +1,4 @@
-# Uma landing page para um ateliê de costura BurlyWood
+# Uma landing page para um ateliê de costura
 
 ## Controle Versional (GIT)
 

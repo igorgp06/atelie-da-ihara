@@ -1,8 +1,5 @@
 @charset "UTF-8";
 
-@import url(responsive.css);
-@import url(style.css);
-
 :root {
     /* substituição das cores padrões bootstrap */
     --bs-primary: var(--PaleTurquoise);
