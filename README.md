@@ -43,7 +43,7 @@ Observe agora que cada seção está sujeita a sua própria versão, veja a atri
 
 Alguns bugs já foram identificados e estão sendo minúsculosamente analisados, sendo eles:  
 
-- O bugs em relação ao ícone da navbar(toggle-button) e o ícone para fechar o menu(close-icon) aparecem em alguns momentos quando redimensionamos a tela, fazendo com que mesmo acima de 950px estes ícones não sejam escondidos como deveriam.   
+- O bug em relação ao ícone da navbar(toggle-button) e o ícone para fechar o menu(close-icon) aparecem em alguns momentos quando redimensionamos a tela, fazendo com que mesmo acima de 950px estes ícones não sejam escondidos como deveriam.   
 
 - A sobreposição do backgroud-color no hover do "navbar-links li", fazendo com que seja sobreposto os efeitos dos elementos ao lado até o fim da transição.
 
