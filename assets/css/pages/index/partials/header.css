@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
     background-color: var(--DarkKhaki);
-    transition: background-color 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
 }
 
 .navbar {
@@ -17,6 +17,7 @@
     position: relative;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.200);
     z-index: 10;
+    height: 80px;
 }
 
 .navbar .logo {
@@ -24,8 +25,12 @@
     color: black;
     font-size: 2.1rem;
     font-weight: 650;
-    margin-left: 0.6rem;
-    transition: color 0.3s ease-in-out;
+    margin-left: 1rem;
+    transition: transform 0.4s ease-in-out;
+}
+
+.navbar .logo:hover {
+    transform: scale(1.05);
 }
 
 .toggle-button {
@@ -60,22 +65,24 @@
 
 .navbar-links li {
     list-style: none;
-    transition: all 0.3s ease-in-out;
 }
 
 .navbar-links li a {
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    margin: 0 1rem 0 1rem;
     color: black;
     font-weight: 550;
     font-size: 1.2rem;
-    transition: background-color 0.3s ease-in-out;
+}
+
+.navbar-links li {
+    border-radius: 5%;
+    transition: all 0.3s ease-in-out;
 }
 
 .navbar-links li:hover {
+    transform: scale(1.05);
     background-color: var(--Khaki);
-    font-size: 1.3rem;
-    border-radius: 3%;
 }
 
 .close-icon {
@@ -110,7 +117,7 @@
         align-items: center;
         gap: 2rem;
         z-index: 10;
-        transition: right 0.3s ease-in-out, opacity 0.3s ease-in-out;
+        transition: right 0.4s ease-in-out, opacity 0.4s ease-in-out;
         opacity: 0;
         user-select: none;
     }
@@ -118,6 +125,7 @@
     .navbar-links.active {
         right: 0;
         opacity: 1;
+        overflow-x: hidden;
     }
 
     .close-icon {
@@ -142,7 +150,7 @@
     .links li {
         margin: 0.5rem;
     }
-    
+
     .menu-text {
         display: flex;
         color: black;
@@ -151,12 +159,12 @@
         margin: 0;
         padding: 0;
     }
-    
+
     .links li {
         list-style: none;
-        transition: all 0.3s ease-in-out;
+        transition: all 0.4s ease-in-out;
     }
-    
+
     .links li a {
         text-decoration: none;
         padding: 0.5rem 1rem;
@@ -164,9 +172,9 @@
         font-weight: 500;
         font-size: 1.2rem;
         margin: 0.5rem;
-        transition: background-color 0.3s ease-in-out;
+        transition: all 0.4s ease-in-out;
     }
-    
+
     .links li:hover {
         background-color: var(--Khaki);
         border-radius: 5%;
