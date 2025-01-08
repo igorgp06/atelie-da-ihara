@@ -1,2 +1,43 @@
 @charset "UTF-8";
 
+/* hero */
+
+.hero {
+    margin: 0;
+    padding: 0;
+}
+
+.hero-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--DarkKhaki);
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.hero-description {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-weight: 450;
+}
+
+.hero-image {
+    height: auto;
+    border-radius: 2rem;
+    box-shadow: 1px 1px 0 var(--PaleTurquoise);
+    transition: all 0.4s ease-in-out;
+}
+
+.hero-image:hover {
+    transform: scale(1.01);
+    border-radius: 0;
+    box-shadow: 4px 4px 0 var(--PaleTurquoise);
+}
