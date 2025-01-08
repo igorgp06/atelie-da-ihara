@@ -39,7 +39,7 @@ Observe agora que cada seção está sujeita a sua própria versão, veja a atri
 - 2.0  
     - Seção hero do site
 
-### Bugs
+## Bugs
 
 Alguns bugs já foram identificados e estão sendo minúsculosamente analisados, sendo eles:  
 
