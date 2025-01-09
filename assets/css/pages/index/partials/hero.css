@@ -29,6 +29,12 @@
     font-weight: 450;
 }
 
+.hero-btn:active {
+    background-color: var(--RoyalBlue) !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
 .hero-image {
     height: auto;
     border-radius: 2rem;
@@ -41,6 +47,13 @@
     box-shadow: 4px 4px 0 var(--DodgerBlue);
 }
 
+@media (max-width: 366px) {
+    .hero-btn {
+        width: auto;
+        margin-bottom: 0.5rem;
+    }
+}
+
 @media (max-width: 992px) {
     .hero-title {
         font-size: 2.5rem;
@@ -51,12 +64,19 @@
     }
 
     .hero-btn {
-        width: 100%;
-        margin-bottom: 1rem;
+        width: auto;
+        margin-bottom: 0 0.5rem;
+    }
+
+    .hero-btn-container .col-lg-12 {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 
     .hero-image {
         width: 100%;
+        margin-top: 1rem;
     }
 
     .hero-text-container {

@@ -43,8 +43,8 @@ Cada seção está sujeita à sua própria versão:
 ## Bugs
 
 - [ ] Os botões da seção hero não devem conter um estado "ativo", pois se tratam de links de navegação interna.
-- [ ] Os ícones do menu aparecem após clicar em algum link do menu em dispositivos maiores que 950px.
-- [ ] Os botões da seção hero em telas menores que 992px ficam um sobre o outro ao invés de lado a lado.
+- [x] Os ícones do menu aparecem após clicar em algum link do menu em dispositivos maiores que 950px.
+- [x] Os botões da seção hero em telas menores que 992px ficam um sobre o outro ao invés de lado a lado.
 - [x] Ícone da navbar (toggle-button) e o ícone de fechar menu (close-icon) aparecem ao redimensionar a tela, mesmo acima de 950px.
 - [x] O elemento FAQ está fora espaçamento do container do menu em dispositivos mobile, afetando o layout do mesmo.
 - [x] Sobreposição do `background-color` no hover de "navbar-links li", afetando transições dos elementos ao lado.

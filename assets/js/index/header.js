@@ -30,8 +30,12 @@ document.addEventListener('DOMContentLoaded', function () {
         link.addEventListener('click', function () {
             navbarLinks.classList.remove('active');
             closeIcon.style.display = 'none';
-            toggleButton.style.display = 'flex';
-        });
+            if (window.innerWidth <= 950) {
+                toggleButton.style.display = 'flex';
+            } else [
+                toggleButton.style.display = 'none'
+            ]
+        })
     });
 
     window.addEventListener('resize', resetMenu);
