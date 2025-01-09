@@ -22,7 +22,7 @@ O projeto segue o seguinte padrão de sufixos:
 | [DEL]   | Remoção de pastas, linhas de código, imagens, etc.                                            |
 | [UPDATE]| Melhorias de performance, refatorações, etc.                                                  |
 | [PATCH] | Correção de algo que funcionava, mas de forma inadequada.                                     |
-| [INFO]  | Alterações de informações, como README ou conteúdo textual do site.                          |
+| [INFO]  | Alterações de informações, como README ou conteúdo textual do site.                           |
 | [FIX]   | Correção de falhas.                                                                           |
 
 ---
@@ -33,13 +33,18 @@ Cada seção está sujeita à sua própria versão:
 
 - **1.0**: Seção header do site  
 - **2.0**: Seção hero do site  
+- **3.0**: Seção sobre do site  
+- **4.0**: Seção produções do site  
+- **5.0**: Seção contato do site  
+- **6.0**: Seção footer do site
 
 ---
 
 ## Bugs
 
-- [ ] Ícone da navbar (toggle-button) e ícone de fechar menu (close-icon) aparecem ao redimensionar a tela, mesmo acima de 950px.
-- [ ] Sobreposição do `background-color` no hover de "navbar-links li", afetando transições dos elementos ao lado.
+- [ ] Ícone da navbar (toggle-button) e o ícone de fechar menu (close-icon) aparecem ao redimensionar a tela, mesmo acima de 950px.
+- [ ] Os botões da seção hero em telas menores que 992px ficam um sobre o outro ao invés de lado a lado.
+- [x] Sobreposição do `background-color` no hover de "navbar-links li", afetando transições dos elementos ao lado.
 
 ---
 
