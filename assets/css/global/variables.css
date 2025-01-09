@@ -5,24 +5,8 @@
     --DodgerBlue: rgba(20, 150, 250, 1);
     --RoyalBlue: rgba(15, 120, 200, 1);
     --Teal: rgba(10, 90, 150, 1);
-    --MidnightBlue: rgba(5, 60,100, 1);
+    --MidnightBlue: rgba(5, 60, 100, 1);
     --DarkBlue: rgba(0, 30, 50, 1);
-
-    /* substituição das cores padrões dos botões do bootstrap */
-    .btn-primary {
-        --bs-btn-color: #000000;
-        --bs-btn-bg: var(--DodgerBlue);
-        --bs-btn-border-color: none;
-        --bs-btn-hover-color: #fff;
-        --bs-btn-hover-bg: var(--RoyalBlue);
-        --bs-btn-hover-border-color: none;
-        --bs-btn-focus-shadow-rgb: 49, 132, 253;
-        --bs-btn-active-color: #fff;
-        --bs-btn-active-bg: var(--MidnightBlue);
-        --bs-btn-active-border-color: none;
-        --bs-btn-active-shadow: inset 3px 3px 3px rgba(0, 0, 0, 0.200);
-        font-weight: 475;
-    }
 
     /* substituição das cores padrões bootstrap */
     --bs-primary: var(--DodgerBlue);
@@ -31,11 +15,3 @@
     --bs-info: var(--MidnightBlue);
     --bs-warning: var(--DarkBlue);
 }
-
-    /* TODO: caso se veja necessário, configurar manualmente as outras cores */
-    /*     
-    --btn-secondary: var(--RoyalBlue);
-    --btn-success: var(--Teal);
-    --btn-info: var(--MidnightBlue);       
-    --btn-warning: var(--DarkBlue);
-    */
