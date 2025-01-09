@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+/* about */
+
+.about {
+    margin: 0;
+    padding: 0;
+    background-color: var(--DodgerBlue);
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

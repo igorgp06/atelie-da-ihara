@@ -5,6 +5,10 @@
 .hero {
     margin: 0;
     padding: 0;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .hero-text-container {

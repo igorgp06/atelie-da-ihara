@@ -4,12 +4,6 @@ Um site desenvolvido para um ateliê de costura. Abaixo estão os detalhes sobre
 
 
 
-> **Aviso de Alteração de Licença**  
-> A partir da versão 2.2, este repositório está sob uma nova licença personalizada que permite apenas a **visualização** do código.  
-> As versões anteriores (até a versão [2.1]) permanecem licenciadas sob a Apache License 2.0. Este aviso será removido na versão 3.0. 
-
-
-
 ## Controle Versional (GIT)
 
 O projeto segue o seguinte padrão de sufixos:
@@ -59,7 +53,9 @@ para acompanhar o andamento do projeto e para ajudar no desenvolvimento.
 Este código está sob uma licença personalizada que permite apenas a **visualização** do código.  
 Para mais detalhes, consulte o arquivo [`LICENSE`](./LICENSE) ou entre em contato pelo e-mail: contateme.igorgp@gmail.com.
 
-
+> **Alteração de Licença**  
+> A partir da versão 2.2, este repositório está sob uma nova licença personalizada que permite apenas a **visualização** do código.  
+> As versões anteriores (até a versão [2.1]) permanecem licenciadas sob a Apache License 2.0. 
 
 ## Contato
 
