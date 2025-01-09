@@ -12,3 +12,73 @@
     justify-content: center;
 }
 
+.about-title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.carousel {
+    margin: 0;
+    padding: 0;
+    width: 90%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: all 0.4s ease-in-out;
+}
+
+.carousel:hover {
+    transform: scale(1.01);
+    box-shadow: 4px 4px 0 var(--RoyalBlue);
+}
+
+.about-text-container {
+    color: black;
+    font-size: 1rem;
+    background-color: white;
+    padding: 7% 0;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: all 0.4s ease-in-out;
+}
+
+.about-text-container:hover {
+    transform: scale(1.01);
+    border-radius: 0;
+    box-shadow: 4px 4px 0 var(--RoyalBlue);
+    & .about-subtitle {
+        font-size: 2.1rem;
+    }
+    & .about-description, & .about-faq-link {
+        font-size: 1.1rem;
+        font-weight: 475;
+    }
+}
+
+.about-subtitle {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    text-align: center;
+    transition: all 0.4s ease-in-out;
+}
+
+.about-description {
+    font-size: 1rem;
+    font-weight: 465;
+    transition: all 0.4s ease-in-out;
+}
+
+.about-faq-link {
+    font-size: 1rem;
+    font-weight: 465;
+    transition: all 0.4s ease-in-out;
+}
