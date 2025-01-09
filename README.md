@@ -42,8 +42,9 @@ Cada seção está sujeita à sua própria versão:
 
 ## Bugs
 
-- [ ] Ícone da navbar (toggle-button) e o ícone de fechar menu (close-icon) aparecem ao redimensionar a tela, mesmo acima de 950px.
+- [x] Ícone da navbar (toggle-button) e o ícone de fechar menu (close-icon) aparecem ao redimensionar a tela, mesmo acima de 950px.
 - [ ] Os botões da seção hero em telas menores que 992px ficam um sobre o outro ao invés de lado a lado.
+- [x] O elemento FAQ está fora espaçamento do container do menu em dispositivos mobile, afetando o layout do mesmo.
 - [x] Sobreposição do `background-color` no hover de "navbar-links li", afetando transições dos elementos ao lado.
 
 ---

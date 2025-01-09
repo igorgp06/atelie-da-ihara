@@ -4,6 +4,16 @@ document.addEventListener('DOMContentLoaded', function () {
     const navbarLinks = document.querySelector('.navbar-links');
     const links = document.querySelectorAll('.links li a');
 
+    function resetMenu() {
+        if (window.innerWidth > 950) {
+            navbarLinks.classList.remove('active');
+            closeIcon.style.display = 'none';
+            toggleButton.style.display = 'none';
+        } else {
+            toggleButton.style.display = 'flex';
+        }
+    };
+
     toggleButton.addEventListener('click', function () {
         navbarLinks.classList.add('active');
         toggleButton.style.display = 'none';
@@ -23,4 +33,8 @@ document.addEventListener('DOMContentLoaded', function () {
             toggleButton.style.display = 'flex';
         });
     });
+
+    window.addEventListener('resize', resetMenu);
+
+    resetMenu()
 });
