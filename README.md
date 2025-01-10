@@ -36,6 +36,7 @@ Cada seção está sujeita à sua própria versão:
 
 ## Bugs
 
+- [x] Os imagens do carrossel carregam no localhost porém não carregam no GitHub Pages.
 - [x] Os botões da seção hero não devem conter um estado "ativo", pois se tratam de links de navegação interna.
 - [x] Os ícones do menu aparecem após clicar em algum link do menu em dispositivos maiores que 950px.
 - [x] Os botões da seção hero em telas menores que 992px ficam um sobre o outro ao invés de lado a lado.
