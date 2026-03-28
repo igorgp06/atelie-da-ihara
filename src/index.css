@@ -59,13 +59,17 @@
         padding: 0;
         text-align: center;
     }
-
 }
 
 @layer components {
     .container {
         @apply max-w-7xl mx-auto px-4;
     }
+}
+
+@utility text-hover {
+    @apply relative text-primary-foreground transition-all duration-300 scale-100 hover:scale-105;
+
 }
 
 @utility container {
