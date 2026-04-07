@@ -45,7 +45,7 @@ export const Header = () => {
 
                     <Link to="/" className="text-2xl font-bold text-primary flex items-center" onClick={() => setIsMenuOpen(false)}>
                         <span className="relative z-10 hover:text-hover transition-all duration-300">
-                            Ateliê da <span className="text-primary-foreground">Ihara</span>
+                            Ihara <span className="text-primary-foreground">Confecções</span>
                         </span>
                     </Link>
 

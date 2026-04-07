@@ -1,5 +1,5 @@
 import { Routes, Route, BrowserRouter } from 'react-router-dom'
-import { MainPages } from './pages/MainPages'
+import { Main } from './pages/Main'
 import { Home } from './pages/public/Home/Home'
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
 
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<MainPages />}>
+        <Route path='/' element={<Main />}>
 
           <Route index element={<Home />} />
           {/* rotas futuras aq */}
