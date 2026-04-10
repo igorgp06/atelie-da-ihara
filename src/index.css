@@ -41,11 +41,10 @@
 
 @layer base {
     :root {
-        --blue-1: #7AB8BF;
-        --blue-2: #1F8C8C;
-        --blue-3: #025959;
-        --orange-1: #BF5315;
-        --orange-2: #8C3616;
+        --blue-1: #C7D7E8;
+        --blue-2: ##5CF2F2;
+        --green-1: #99E89D;
+        --green-2: #006633;
         --black: #212121;
         --white: #FFFFFF;
 
@@ -53,18 +52,18 @@
         --foreground: var(--blue-1);
 
         --primary: var(--blue-1);
-        --primary-foreground: var(--blue-3);
+        --primary-foreground: var(--blue-2);
 
-        --border: var(--blue-3);
+        --border: var(--blue-2);
 
-        --emphasis: var(--orange-1);
-        --emphasis-foreground: var(--orange-2);
+        --emphasis: var(--green-1);
+        --emphasis-foreground: var(--green-2);
 
         --card: var(--blue-2);
         --card-foreground: var(--blue-1);
 
-        --card: var(--orange-1);
-        --card-foreground: var(--orange-2);
+        --card: var(--green-1);
+        --card-foreground: var(--green-2);
 
         --animate-fade-in: fade-in 0.7s ease-out forwards;
         --animate-fade-in-delay-1: fade-in 0.4s ease-out 0.2s forwards;

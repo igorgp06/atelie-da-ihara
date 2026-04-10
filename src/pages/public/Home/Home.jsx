@@ -1,5 +1,6 @@
 import { Hero } from "./partials/Hero"
 import { About } from "./partials/About"
+import { Footer } from "../../../components/Footer"
 
 export const Home = () => {
     return (
@@ -9,17 +10,19 @@ export const Home = () => {
                 <Hero />
             </main>
 
-            <section id="about" className="min-h-screen flex items-center justify-center bg-primary">
+            <section id="about" className="min-h-screen flex items-center justify-center bg-primary-foreground">
                 <About />
             </section>
 
-{/*             <section id="more" className="min-h-[75vh] sm:min-h-[80vh] flex items-center justify-center bg-primary">
+            {/*             <section id="more" className="min-h-[75vh] sm:min-h-[80vh] flex items-center justify-center bg-primary">
                 <More />
             </section>
 
+            */}
+
             <footer className="bg-background">
                 <Footer />
-            </footer> */}
+            </footer>
 
         </div>
     )

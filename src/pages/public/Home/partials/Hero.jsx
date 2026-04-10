@@ -4,58 +4,47 @@ import { cn } from "../../../../lib/utils";
 
 export const Hero = () => {
     return (
+        <section
+            id="home"
+            className="relative flex min-h-screen items-center justify-center bg-background px-4 pt-24"
+        >
+            <div className="container mx-auto max-w-4xl text-center">
+                <p className="text-sm font-semibold tracking-[0.25em] text-primary opacity-0 animate-fade-in-delay-1">
+                    ATELIÊ DE COSTURA
+                </p>
 
-        <div className="relative min-h-screen flex flex-col align-center justify-center px-4" id="home">
+                <h1 className="mt-4 text-4xl font-bold text-primary opacity-0 animate-fade-in-delay-2 sm:text-5xl md:text-6xl">
+                    IHARA <span className="text-primary-foreground">CONFECÇÕES</span>
+                </h1>
 
-            <div className="container max-w-5xl mx-auto text-center">
-                <div className="space-y-1 ">
-                    <div className="mb-4">
-                        <h1 className="opacity-0 font-semibold animate-fade-in-delay-1 text-3xl md:text-4xl text-primary">
-                            IHARA
-                        </h1>
-                        <h2 className="text-primary opacity-0 font-bold text-4xl md:text-5xl animate-fade-in-delay-2 hover:text-glow transition-all duration-300 block">
-                            {"  "}
-                            <span className="text-primary">CONFECÇÕES</span>
-                        </h2>
-                    </div>
+                <p className="mx-auto mt-6 max-w-2xl text-base text-primary opacity-0 animate-fade-in-delay-3 sm:text-lg">
+                    Modelagem, ajustes e peças sob medida com acabamento cuidadoso para valorizar o seu estilo e o seu conforto em cada detalhe.
+                </p>
 
-                    <div className="max-w-3xl mx-auto">
-                        <p className="text-base sm:text-lg text-primary opacity-0 animate-fade-in-delay-3">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio voluptas fugit voluptates? Nulla saepe dolores veniam deleniti eligendi assumenda tempore.
-                        </p>
-                    </div>
-                </div>
-
-                <div className="mt-10 flex justify-center items-center gap-4 flex-wrap">
-                    <Link
-                        to="#"
-                        className={cn("inline-block px-4 py-3 bg-card text-primary font-semibold",
-                            "rounded-md shadow-md border border-primary-foreground opacity-0 animate-fade-in-delay-4",
-                            "hover:bg-background hover:text-glow transition-all duration-300"
-                        )}
+                <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
+                    <a
+                        href="#about"
+                        className="rounded-md border border-primary-foreground bg-card px-5 py-3 font-semibold text-primary opacity-0 shadow-md transition-colors duration-300 hover:bg-background animate-fade-in-delay-4"
                     >
-                        Lorem, ipsum.
-                    </Link>
+                        Conheça o ateliê
+                    </a>
 
-                    <Link
-                        to="#"
-                        className={cn("inline-block px-4 py-3 bg-background text-primary-foreground font-semibold",
-                            "rounded-md shadow-md border opacity-0 animate-fade-in-delay-5",
-                            "border-primary-foreground hover:bg-primary hover:text-glow transition-all duration-300"
-                        )}
+                    <a
+                        href="#contato"
+                        className="rounded-md border border-primary-foreground bg-background px-5 py-3 font-semibold text-primary-foreground opacity-0 shadow-md transition-colors duration-300 hover:bg-primary hover:text-background animate-fade-in-delay-5"
                     >
-                        Lorem, ipsum.
-                    </Link>
-
+                        Falar no WhatsApp
+                    </a>
                 </div>
             </div>
 
-            <a href="#about" className="absolute bottom-5 left-0 right-0 flex flex-col items-center text-primary animate-bounce z-16 opacity-40">
-                <span className="text-sm text-primary mb-1">Veja Mais</span>
-                <span className="hover:scale-1.10 transition-transform duration-300">
-                    <ArrowDown className="h-5 w-5 text-primary-emphasis transition-transform duration-300" />
-                </span>
+            <a
+                href="#about"
+                className="absolute bottom-6 left-1/2 flex -translate-x-1/2 flex-col items-center text-primary/70"
+            >
+                <span className="text-sm">Role para ver mais</span>
+                <ArrowDown className="mt-1 h-5 w-5 animate-bounce" />
             </a>
-        </div>
-    )
-} 
+        </section>
+    );
+};

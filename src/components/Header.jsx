@@ -11,7 +11,7 @@ const menuItems = [
 
 export const Header = () => {
     const [isScrolled, setIsScrolled] = useState(false);
-    const [isMenuOpen, setIsMenuOpen] = useState(false); /* TODO: Adicionar lógica para abrir/fechar o menu user icone do lucide react */
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     useEffect(() => {
         const handleScroll = () => {
@@ -23,16 +23,11 @@ export const Header = () => {
     }, []);
 
     useEffect(() => {
-        if (isMenuOpen) {
-            document.body.style.overflow = "hidden";
-        } else {
-            document.body.style.overflow = "auto";
-        }
+        document.body.style.overflow = isMenuOpen ? "hidden" : "auto";
 
         return () => {
-            document.body.overflow = "auto";
+            document.body.style.overflow = "auto";
         };
-
     }, [isMenuOpen]);
 
     return (
