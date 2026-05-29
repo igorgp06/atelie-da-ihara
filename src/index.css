@@ -2,21 +2,14 @@
 @import "tailwindcss";
 
 @theme {
-    --color-blue-1: var(--blue-1);
-    --color-blue-2: var(--blue-2);
-    --color-blue-3: var(--blue-3);
-    --color-orange-1: var(--orange-1);
-    --color-orange-2: var(--orange-2);
-    --color-black: var(--black);
-    --color-white: var(--white);
-
+    --color-border: var(--border);
     --color-background: var(--background);
     --color-foreground: var(--foreground);
+
     --color-primary: var(--primary);
     --color-primary-foreground: var(--primary-foreground);
-    --color-border: var(--border);
+
     --color-card: var(--card);
-    --color-card-foreground: var(--card-foreground);
 
     --animate-fade-in: fade-in 0.7s ease-out forwards;
     --animate-fade-in-delay-1: fade-in 0.4s ease-out 0.2s forwards;
@@ -41,63 +34,31 @@
 
 @layer base {
     :root {
-        --blue-1: #C7D7E8;
-        --blue-2: ##5CF2F2;
-        --green-1: #99E89D;
-        --green-2: #006633;
-        --black: #212121;
-        --white: #FFFFFF;
+        --background: #212121;
+        --foreground: #fff;
 
-        --background: var(--black);
-        --foreground: var(--blue-1);
+        --card: #99E89D;
 
-        --primary: var(--blue-1);
-        --primary-foreground: var(--blue-2);
+        --primary: #C7D7E8;
+        --primary-foreground: #006633;
 
-        --border: var(--blue-2);
-
-        --emphasis: var(--green-1);
-        --emphasis-foreground: var(--green-2);
-
-        --card: var(--blue-2);
-        --card-foreground: var(--blue-1);
-
-        --card: var(--green-1);
-        --card-foreground: var(--green-2);
-
-        --animate-fade-in: fade-in 0.7s ease-out forwards;
-        --animate-fade-in-delay-1: fade-in 0.4s ease-out 0.2s forwards;
-        --animate-fade-in-delay-2: fade-in 0.5s ease-out 0.4s forwards;
-        --animate-fade-in-delay-3: fade-in 0.6s ease-out 0.6s forwards;
-        --animate-fade-in-delay-4: fade-in 0.7s ease-out 0.8s forwards;
-        --animate-fade-in-delay-5: fade-in 0.8s ease-out 1s forwards;
-        --animate-fade-in-delay-6: fade-in 0.9s ease-out 1.2s forwards;
+        --border: #5CF2F2;
     }
 
-    @keyframes fade-in {
-        from {
-            opacity: 0;
-            transform: translateY(20px);
-        }
-
-        to {
-            opacity: 1;
-            transform: translateY(0);
-        }
+    * {
+        @apply box-border;
     }
-}
 
-* {
-    @apply box-border;
-}
+    html {
+        @apply scroll-smooth;
+        scrollbar-width: thin;
+        scroll-behavior: smooth
+    }
 
-html {
-    @apply scroll-smooth;
-}
-
-body {
-    @apply bg-background antialiased transition-colors duration-300;
-    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    body {
+        @apply bg-background antialiased transition-colors duration-300;
+        font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    }
 }
 
 #root {

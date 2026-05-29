@@ -14,7 +14,8 @@ export const Home = () => {
                 <About />
             </section>
 
-            {/*             <section id="more" className="min-h-[75vh] sm:min-h-[80vh] flex items-center justify-center bg-primary">
+            {/*             
+            <section id="more" className="min-h-[75vh] sm:min-h-[80vh] flex items-center justify-center bg-primary">
                 <More />
             </section>
 
